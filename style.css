@@ -94,3 +94,30 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@keyframes slider {
+  12.5% {
+    margin-left: -100%;
+  }
+  20% {
+    margin-left: -100%;
+  }
+  37.5% {
+    margin-left: -200%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  62.5% {
+    margin-left: -300%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  87.5% {
+    margin-left: -400%;
+  }
+  100% {
+    margin-left: -400%;
+  }
+}
