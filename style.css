@@ -5,7 +5,7 @@ html body {
     margin: 0px;
     background-color: #ffffff;
   }
-  
+
   h1 {
     color: black;
     font-family: 'Montserrat', sans-serif;
@@ -16,6 +16,11 @@ html body {
     color: black;
     font-family: 'Montserrat', sans-serif;
     margin-left: 10px;
+  }
+  
+  p {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
   }
   
 .topnav {
@@ -82,13 +87,13 @@ html body {
 }
 
 .imagecontainer:nth-child(3) {
-  background-image: url('images/backfootpunch.JPG');
+  background-image: url('images/backfootpunch.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .imagecontainer:nth-child(4) {
-  background-image: url('images/cricketgear.JPG');
+  background-image: url('images/cricketgear.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
