@@ -14,13 +14,11 @@ body {
     margin-left: 10px;
   }
   
-  /* Add a black background color to the top navigation */
 .topnav {
   background-color: #ffffff;
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   color: #020000;
@@ -30,15 +28,69 @@ body {
   font-size: 15px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ffffff;
   color: black;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
   background-color:#ffffff;
   font-family: 'Montserrat', sans-serif;
   color: #00a2e8;
+}
+
+.slider {
+  height: 500px;
+  width: 100%;
+  background-color: gray;
+}
+
+.sliderchild {
+  height: 500px;
+  width: 500%;
+  background-color: #00a2e8;
+  animation: slider infinite 20s 2s;
+}
+
+.imagecontainer {
+  height: 500px;
+  width: 20%;
+  background-color: gray;
+  float: left;
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+  line-height: 500px;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.imagecontainer:nth-child(1) {
+  background-image: url('images/childbatting.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagecontainer:nth-child(2) {
+  background-image: url('images/cricketball.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagecontainer:nth-child(3) {
+  background-image: url('images/backfootpunch.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagecontainer:nth-child(4) {
+  background-image: url('images/cricketgear.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagecontainer:nth-child(5) {
+  background-image: url('images/childbatting.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
