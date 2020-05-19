@@ -135,3 +135,40 @@ html body {
     margin-left: -400%;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: left;
+    color: #020000;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 5px 12px;
+    font-size: 8px;
+  }
+  
+  .slider {
+    height: 250px;
+    width: 100%;
+    background-color: gray;
+  }
+
+  .sliderchild {
+    height: 200px;
+    width: 500%;
+    background-color: #00a2e8;
+    animation: slider infinite 20s 2s;
+  }
+
+  .imagecontainer {
+    height: 250px;
+    width: 20%;
+    background-color: gray;
+    float: left;
+    font-weight: 800;
+    font-size: 12px;
+    text-align: center;
+    line-height: 250px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
