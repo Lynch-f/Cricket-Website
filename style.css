@@ -1,45 +1,63 @@
 html body {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0px;
-    background-color: #ffffff;
-  }
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0px;
+  background-color: #ffffff;
+}
 
-  h1 {
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 10px;
-  }
+h1 {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 10px;
+}
 
-  h2 {
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 10px;
-  }
+h2 {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 10px;
+  padding-top: 10px;
+}
   
-  p {
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
+p {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 10px;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  position: fixed;
+  margin-top: 3px;
+  margin-left: 20px;
+}
+
 .topnav {
   background-color: #ffffff;
   overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  width: 100%;
 }
 
 .topnav a {
-  float: left;
+  float: right;
+  position: center;
   color: #020000;
   font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  padding: 14px 16px;
+  text-align: left;
+  padding: 7px 18px;
+  line-height: 50px;
   font-size: 15px;
 }
 
 .topnav a:hover {
   background-color: #ffffff;
-  color: black;
+  color: #020000;
 }
 
 .topnav a.active {
@@ -90,7 +108,7 @@ html body {
 .imagecontainer:nth-child(3) {
   background-image: url('images/backfootpunch2.jpg');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right 35% top 45%;
   background-size: cover;
 }
 
@@ -135,12 +153,38 @@ html body {
 }
 
 @media screen and (max-width: 600px) {
+  h1 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+  }
+
+  h2 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+  
+  p {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+  }
+ 
+  .topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+    position: left;
+  }
+  
   .topnav a {
     float: left;
     color: #020000;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     padding: 5px 12px;
+    margin-left: 10px;
     font-size: 8px;
   }
   
