@@ -93,7 +93,7 @@ p {
 .dropdown-content {
   display: none;
   position: fixed;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -176,6 +176,27 @@ p {
   background-image: url('images/childbatting.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.imagecontainer .btn {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  animation: slider infinite 20s 2s;
+}
+
+.imagecontainer .btn:hover {
+  background-color: #00a2e8;
 }
 
 @keyframes slider {
