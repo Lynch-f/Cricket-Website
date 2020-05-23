@@ -178,27 +178,6 @@ p {
   background-size: cover;
 }
 
-/* Style the button and place it in the middle of the container/image */
-.imagecontainer .btn {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  animation: slider infinite 20s 2s;
-}
-
-.imagecontainer .btn:hover {
-  background-color: #00a2e8;
-}
-
 @keyframes slider {
   12.5% {
     margin-left: -100%;
