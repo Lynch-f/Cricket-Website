@@ -23,6 +23,7 @@ h2 {
 h7 {
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
 }
 
 p {
@@ -216,7 +217,7 @@ p {
   width: 100%;
   background-color: #00a2e8;
   font-family: 'Montserrat', sans-serif;
-  text-align: left;
+  text-align: center;
   padding-left: 10px;
 }
 
