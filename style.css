@@ -219,7 +219,7 @@ p {
     margin-left: -400%;
   }
 }
-/* Three columns side by side */
+
 .column {
   float: left;
   width: 50%;
@@ -227,7 +227,6 @@ p {
   padding-left: 15px;
 }
 
-/* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -235,17 +234,14 @@ p {
   }
 }
 
-/* Add some shadows to create a card effect */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Some left and right padding inside the container */
 .container {
   padding: 0 16px;
 }
 
-/* Clear floats */
 .container::after, .row::after {
   content: "";
   clear: both;
@@ -310,8 +306,15 @@ p {
 }
 
 @media screen and (max-width: 600px) {
+  header {
+    color: #00a2e8;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+    padding-top: 35px;
+  }
+
   h1 {
-    color: black;
+    color: #00a2e8;
     font-family: 'Montserrat', sans-serif;
     margin-left: 10px;
   }
@@ -321,6 +324,13 @@ p {
     font-family: 'Montserrat', sans-serif;
     margin-left: 10px;
     padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  u {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
   }
     
   p {
