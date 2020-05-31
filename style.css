@@ -448,13 +448,13 @@ p {
     animation: slider infinite 20s 2s;
   }
   
-  .imagecontainer {
+.imagecontainer {
     height: 500px;
     width: 20%;
     background-color: gray;
     float: left;
     font-weight: 800;
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
     line-height: 250px;
     color: #ffffff;
