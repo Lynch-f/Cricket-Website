@@ -179,7 +179,7 @@ ol {
 }
 
 .imagecontainer:nth-child(3) {
-  background-image: url('images/backfootpunch2.JPG');
+  background-image: url('images/backfootpunch2.jpg');
   background-repeat: no-repeat;
   background-position: right 35% top 45%;
   background-size: cover;
@@ -478,7 +478,7 @@ ol {
   }
   
   .imagecontainer:nth-child(3) {
-    background-image: url('images/backfootpunch2.JPG');
+    background-image: url('images/backfootpunch2.jpg');
     background-repeat: no-repeat;
     background-position: right 35% top 45%;
     background-size: cover;
