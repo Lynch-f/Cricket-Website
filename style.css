@@ -166,15 +166,15 @@ ol {
 }
 
 .imagecontainer:nth-child(1) {
-  background-image: url('images/childbatting.jpeg');
+  background-image: url('images/cricketball.jpg');
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
 .imagecontainer:nth-child(2) {
-  background-image: url('images/cricketball.jpg');
+  background-image: url('images/ellyseperry.jpg');
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
 
@@ -186,15 +186,16 @@ ol {
 }
 
 .imagecontainer:nth-child(4) {
-  background-image: url('images/cricketgear2.jpg');
+  background-image: url('images/edenpark.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .imagecontainer:nth-child(5) {
-  background-image: url('images/childbatting.jpeg');
+  background-image: url('images/cricketball.jpg');
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
@@ -465,15 +466,14 @@ ol {
   }
   
   .imagecontainer:nth-child(1) {
-    background-image: url('images/childbatting.jpeg');
+    background-image: url('images/cricketball.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   .imagecontainer:nth-child(2) {
-    background-image: url('images/cricketball.jpg');
+    background-image: url('images/ellyseperry.jpg');
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
   }
   
@@ -485,14 +485,14 @@ ol {
   }
   
   .imagecontainer:nth-child(4) {
-    background-image: url('images/cricketgear2.jpg');
+    background-image: url('images/cricketnets.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
   
   .imagecontainer:nth-child(5) {
-    background-image: url('images/childbatting.jpeg');
+    background-image: url('images/cricketball.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
