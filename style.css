@@ -228,7 +228,7 @@ ol {
 
 .column {
   float: left;
-  width: 50%;
+  width: 60%;
   margin-bottom: 16px;
   padding-left: 15px;
 }
@@ -274,6 +274,19 @@ ol {
   background-color: #00a2e8;
 }
 
+.subimage {
+  display: block;
+  float: right;
+  padding-top: 90px;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .subimage {
+    display: none;
+  }
+}
+
 .footer {
   position: bottom;
   width: 100%;
@@ -301,16 +314,6 @@ ol {
   color: white;
 }
 
-.socialmedia .fa-facebook {
-  background: #00a2e8;
-  color: white;
-}
-
-.socialmedia .fa-instagram {
-  background: #00a2e8;
-  color: white;
-}
-
 .responsive {
   width: 100%;
   height: 0;
@@ -322,6 +325,7 @@ ol {
   position: absolute;
   width: 100%;
   height: 100%;
+  padding-bottom: 10px;
 }
 
 @media screen and (max-width: 600px) {
